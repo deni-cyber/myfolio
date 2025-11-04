@@ -3,38 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deni's Portfolio</title>
+    <title>Sample Page</title>
     <link rel="stylesheet" href="css/style.css">
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="images/favicon.ico"/>
 </head>
 <body>
+
     <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <a href="https://www.linkedin.com/in/kamau-githinji-0a48b7273/" target="_blank"><img src='images/icons8-linked-in-60.png'></a>
+        <div class="menu-btn" id="menu-btn">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>  
     </header>
+    <main>
+        <div class="section" id="home">
+            <div class="card">
+                <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
+                    <img src="images/profile.png" alt="Profile Picture" width="100px" height="100px" style="border-radius: 50%;"><br>
+                    <h1>I'm Denis</h1>
+                </div>
 
-    <section class="hero">
-        <div class="intro">
-            <h1>Hi, I'm Deni</h1>
-            <p>Electrical & Electronics Engineering student passionate about programming, computer systems, and web development.</p>
-            <a href="projects.html" class="btn">View My Work</a>
+                <p>An Electrical and Electronic Engineer With a Passion for Software Development and Design</p>
+                <h2>Specialties</h2>
+                <div style="display: flex; flex-wrap: wrap; justify-content: space-around; row-gap: 1em;">
+                    <b>IoT</b> | <b>Robotics</b> | <b>Python</b> | <b>Web Dev</b>
+                </div>
+            </div>
         </div>
-        <div class="hero-img">
-            <img src="https://i.pinimg.com/736x/96/8f/14/968f14e1e60d0819dd356adfa5d614ec.jpg" alt="Deni Profile" loading="lazy">
+        <div class="section" id="about">
+            <div class="card">
+                <h2>About Me</h2>
+                <p>Hi, I'm Denis Githinji — an Electrical and Electronic Engineer with a deep curiosity for how hardware and software work together. I design and build systems that bring ideas to life through thoughtful engineering and clean code.</p>
+                <p>In addition to Engineering and Tech I love Painting and Cycling. I also have a great curiosity in nature and Photography.</p>
+            </div>
         </div>
-    </section>
+        <div class="section" id="projects">
+            <div class="card">
+                <h1>Projects</h1>
+                <div class="project">
+                    <h3>KeBanda (Still Ongoing)</h3>
+                    <p>An E-commerce platform for local artisans to showcase and sell their products.</p>
+                    <p>Kebanda has been designed with both the artisan and the customer in mind, ensuring a seamless shopping experience.</p>
+                    <p>The platform features a user-friendly interface, secure payment options(<b>using Daraja API from M-Pesa</b>), and a robust backend to manage listings and orders.</p>
+                    <p>It also includes a shipping management system to streamline order fulfillment.</p>
+                    <p><a href="https://kebanda.com" class='link' target="_blank">View Project</a></p>
+                    <p>Technologies Used: <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>Python/Django</b>, <b>MySQL</b></p>
 
-    <section class="about">
-        <h2>About Me</h2>
-        <p>I started programming in 2020 with Java, quickly moved to Python, and explored C during university.  
-        I taught myself web development (HTML, CSS, JS) and am familiar with Django and Flask frameworks.  
-        I also have experience with databases like MySQL and SQLite3. My goal is to build software and IoT solutions that solve real-world problems.</p>
-    </section>
+                </div>
+                <div class="project">
+                    <h3>A Company Profile For North Edge Fabricators Ltd (2024/2025)</h3>
+                    <p>This project involved creating a responsive website for North Edge Fabricators Ltd, showcasing their services and Projects.</p>
+                    <p>I created a user-friendly interface with easy navigation and a traditional minimalist design. The choice of this style was intentional, as it aligns with the client's brand identity. It also emphasizes their long time presence in the market.</p>
+                    <p>This was purely a front-end development project, utilizing <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b> to bring the client's vision to life.</p>
+                    <h4>Project Highlights</h4>
+                    <ul>
+                        <li>Responsive Design</li>
+                        <li>Cross-Browser Compatibility</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                    <p><a href="https://deni-cyber.github.io/nefweb/" class='link' target="_blank">View Project</a></p>
+                    <h4>ScreenShots</h4>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; align-items: center;">
+                        <img src="images/nef3.png" alt="NEFL Screenshot 3" width="45%" height="auto" style="border-radius: 10px;" class="project-image clickable">
+                        <img src="images/nef4.png" alt="NEFL Screenshot 4" width="45%" height="auto" style="border-radius: 10px;" class="project-image clickable">
+                    </div>
+                </div>
 
+                <div class="project">
+                    <h3>Folio - This Portfolio (2025)</h3>
+                    <p>This portfolio website was built to help showcase my skills, projects, and experience as a developer. It features a clean and modern design, with easy navigation and responsive layout.</p>
+                    <p>The website was built using <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, with a focus on simplicity and accessibility.</p>
+                    <h4>Project Highlights</h4>
+                    <ul>
+                        <li>Clean and Modern Aesthetic</li>
+                        <li>Accessible and User-Friendly</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3>MyDuka (2023)</h3>
+                    <p>Myduka Is a Desktop App for managing inventory and sales in retail shops.</p>
+                    <p>I built this application to help a friend manage their inventory and sales more effectively.</p>
+                    <p>The app was built using <b>Python</b> and <b>Tkinter</b> for the GUI, with a focus on simplicity and ease of use.</p>
+                    <p>I used <b>SQLite</b> for the database to store product information and sales data. This allowed for rapid development and deployment.</p>
+                    <h4>Project Highlights</h4>
+                    <ul>
+                        <li>Inventory Management</li>
+                        <li>User Authentication</li>
+                        <li>Sales Tracking</li>
+                        <li>Reporting and Analytics</li>
+                        <li>Export Inventory and Sales Documentation to Excel Sheets</li>
+                        <li>Simple User Interface with Customized Themes</li>
+                    </ul>
+                    <h4>Screenshots</h4>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; align-items: center;">
+                        <img src="images/myduka1.png" alt="MyDuka Screenshot 1" width="100%" height="auto" style="border-radius: 10px;" class="project-image clickable">
+                        <img src="images/myduka2.png" alt="MyDuka Screenshot 2" width="100%" height="auto" style="border-radius: 10px;" class="project-image clickable">
+                    </div>
+                    <!-- Fullscreen image popup -->
+                    <div id="image-modal" class="modal">
+                        <span id="close-btn">&times;</span>
+                        <img id="modal-img" src="" alt="">
+                        <div id="caption"></div>
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="section" id="contact">
+            <div class="card" style="text-align: center; width: 100%;">
+                <h2>Contact Me</h2>
+                <p>If you have any questions or inquiries, feel free to reach out!</p>
+                <p><a class="link" href="mailto:deniskamau928@gmail.com">deniskamau928@gmail.com</a></p> 
+            </div>
+        </div>
+    </main>
     <footer>
-        <p>&copy; 2025 Deni | <a href="https://github.com/yourusername">GitHub</a> | <a href="https://linkedin.com/in/yourusername">LinkedIn</a></p>
+        <p>&copy; 2025 My Portfolio</p>
     </footer>
+
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const nav = document.getElementById('nav');
+        const navLinks = document.querySelectorAll('#nav a');
+
+
+        menuBtn.addEventListener('click', () => {
+        menuBtn.classList.toggle('open');
+        nav.classList.toggle('active');
+        });
+        // Close menu when a link is clicked
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                menuBtn.classList.remove('open');
+                nav.classList.remove('active');
+            });
+        });
+    </script>
+    <script>
+        const modal = document.getElementById('image-modal');
+        const modalImg = document.getElementById('modal-img');
+        const caption = document.getElementById('caption');
+        const closeBtn = document.getElementById('close-btn');
+
+        document.querySelectorAll('.clickable').forEach(img => {
+            img.addEventListener('click', () => {
+            modal.style.display = 'flex';
+            modalImg.src = img.src;
+            caption.textContent = img.alt;
+            });
+        });
+
+        closeBtn.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        // Optional: close when clicking outside the image
+        modal.addEventListener('click', e => {
+            if (e.target === modal) {
+            modal.style.display = 'none';
+            }
+        });
+    </script>
+
 </body>
-</html>
+</html> 
