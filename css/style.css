@@ -1,9 +1,9 @@
 body{
     background-image: url('../images/bg1.jpeg');
     background-color: black;
-    color: #ffffff;
-    font-family: monospace, serif;
-    font-weight: 400;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 1200;
     font-style: normal;
     line-height: 1.6;
     font-size: smaller;
@@ -26,11 +26,10 @@ h1, h2{
 b{
     padding: .3em;
     font-size: large;
-    border-bottom: #91ff00 2px solid;
+    border-bottom: #ffcc00 1px solid;
 }
 
 h3{
-    text-decoration: underline;
     color: #ffcc00;
 }
 p{
@@ -123,8 +122,8 @@ p{
     font-size: 1.2em;
     margin-bottom: 20px;
     padding: 1rem;
-    border-radius: 1rem;
-    background-color: #32610683;
+    border-radius: 0.5rem;
+    background-color: #1a7505e3;
     text-align: left;
     max-width: 600px;
     z-index: 1;
@@ -146,7 +145,7 @@ p{
 
 .project{
     font-size: 1.1em;
-    margin-bottom: 4em;
+    padding-bottom: 4em;
     padding-bottom: 1em;
 }
 
