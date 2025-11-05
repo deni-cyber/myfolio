@@ -25,9 +25,8 @@ h1, h2{
 
 b{
     padding: .3em;
-    color: #ffcc00;
     font-size: large;
-    border-bottom: #91ff0020 2px solid;
+    border-bottom: #91ff00 2px solid;
 }
 
 h3{
@@ -147,8 +146,7 @@ p{
 
 .project{
     font-size: 1.1em;
-    margin-bottom: 2em;
-    border-bottom: #91ff00d0 1px solid;
+    margin-bottom: 4em;
     padding-bottom: 1em;
 }
 
@@ -159,11 +157,13 @@ p{
     transform: scale(1.02);
     transition: transform 0.3s;
 }
+
+
 /* Modal (fullscreen overlay) */
 .modal {
   display: none;
   position: fixed;
-  z-index: 1002;
+  z-index: 1003;
   left: 0;
   top: 0;
   width: 100%;
@@ -190,7 +190,7 @@ p{
 #close-btn {
   position: absolute;
   top: 0px;
-  right: 40px;
+  right: 49px;
   color: #ffcc00;
   font-size: 40px;
   font-weight: bold;
