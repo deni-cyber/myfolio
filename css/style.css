@@ -24,18 +24,18 @@ h1, h2{
 
 
 b{
-    padding: .3em;
-    font-size: large;
-    border-bottom: #ffcc00 1px solid;
+  text-decoration: underline white;
 }
 
 h3{
     color: #00ffdd;
 }
+h4{
+  text-decoration: underline #00ffdd 2px; 
+}
 p{
     text-align: justify;
 }
-
 
 
 
@@ -140,6 +140,43 @@ p{
     color: greenyellow;
     text-decoration: underline;
 }
+
+
+
+.icons-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.icon-container{
+  width: fit-content;
+  height: auto;
+  flex-direction: column;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.icon-container img{
+  position: relative;
+}
+.icon{
+  width: 100px;
+  height: auto;
+  border-radius: 15px;
+}
+.icon2{
+  width: 40px;
+  height: auto;
+}
+
+
+
 
 
 
