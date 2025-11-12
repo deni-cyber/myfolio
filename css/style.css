@@ -1,7 +1,7 @@
 body{
     background-image: url('../images/bg1.jpeg');
     background-color: black;
-    color: white;
+    color: #48ff00;
     font-family: "Orbitron", sans-serif;
     font-weight: 1200;
     font-style: normal;
@@ -17,7 +17,7 @@ body{
 }
 
 h1, h2{
-    color: #ffffff;
+    color: #ffcc00;
     text-align: center;
 
 }
@@ -30,7 +30,7 @@ b{
 }
 
 h3{
-    color: #ffcc00;
+    color: #00ffdd;
 }
 p{
     text-align: justify;
@@ -118,12 +118,12 @@ p{
 }
 
 .card{
-    border: #91ff0020 1px solid;
+    border: #ffcc00 1px solid;
     font-size: 1.2em;
     margin-bottom: 20px;
     padding: 1rem;
     border-radius: 0.5rem;
-    background-color: #1a7505e3;
+    background-color: rgba(27, 39, 26, 0.781);
     text-align: left;
     max-width: 600px;
     z-index: 1;
