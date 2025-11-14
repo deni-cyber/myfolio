@@ -197,6 +197,25 @@ p{
     transition: transform 0.3s;
 }
 
+.project-description{
+  overflow-y: hidden;
+  height: 200px;
+}
+.show-more-btn {
+  background-color: inherit;
+  color: #00ffdd;
+  border: dashed 1px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: inherit;
+}
+.show-more-btn:hover {
+  color: #ffcc00;
+  background-color: rgb(9, 17, 7);
+}
+.full-text {
+  height: auto;
+}
 
 /* Modal (fullscreen overlay) */
 .modal {
